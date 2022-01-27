@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="#:U+V[/y8Va:5kp.]2lR" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="}(}#5Wr,wp$p2WuxfPKG"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="~+1oN4:RdE2(dz_TBnY|"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_scroll_image" id="I/.Q;NU}.w!BL9MtO~@j"><value name="sprite"><block type="device_build_big_image" id="wdYd?,7*oR@Y_l.v6V9."><field name="LEDS">`
+        . # . . # # . . . # 
+        # . # . # . # . # . 
+        # # # . # . # . # # 
+        # . # . # . # . # . 
+        # . # . # # . . # .
+        `</field></block></value><value name="frameoffset"><shadow type="math_number" id="![4GGL~8y=dXq3@Iry!%"><field name="NUM">0</field></shadow></value><value name="delay"><shadow type="math_number" id="B#=tW,4y~R,H(Mjs9EUQ"><field name="NUM">150</field></shadow></value><next><block type="device_scroll_image" id="A!kVR;Uk88r9mqvT];]`"><value name="sprite"><block type="device_build_big_image" id="Gyl_yl/LxW?8RR+DJ0V-"><field name="LEDS">`
+        . . # . # . # . # . 
+        # . # # # . # . # . 
+        # . # . # . # # . . 
+        # . # . # . # . # . 
+        # . # . # . # . # .
+        `</field></block></value><value name="frameoffset"><shadow type="math_number" id="zupl=^:#Llu5_q@}xn`X"><field name="NUM">0</field></shadow></value><value name="delay"><shadow type="math_number" id="6IE0%)TvnCFUNzwK5F[p"><field name="NUM">150</field></shadow></value><next><block type="device_scroll_image" id="C##u4=Plg-5yTZ{i{~4t"><value name="sprite"><block type="device_build_big_image" id="Tmh30Zu|QL(h?K(M*AhR"><field name="LEDS">`
+        . # . . . # # . # # 
+        # . # . . # # . # # 
+        # . # . . . . # . . 
+        # . # . . # . . . # 
+        . # . . . . # # # .
+        `</field></block></value><value name="frameoffset"><shadow type="math_number" id="F)Y+L(8/DR3wP(3?Xpto"><field name="NUM">0</field></shadow></value><value name="delay"><shadow type="math_number" id=")IHM]vpyICPlxq!:)mi="><field name="NUM">150</field></shadow></value></block></next></block></next></block></statement><next><block type="controls_if" id="RYKYULdOKvNC%9o)#fR}"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="s~,)`TI89g9?-_kH_%`j"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="device_scroll_image" id="KVul[dFI{.oJ5:$}*%,7"><value name="sprite"><block type="device_build_big_image" id=":uvoAf7fhdko!]fyvE,?"><field name="LEDS">`
+        # # . # . # . . # . 
+        # . . # . # . . # . 
+        # # . # . # . . # . 
+        # . . # . # . . # . 
+        # . . # . # # . # .
+        `</field></block></value><value name="frameoffset"><shadow type="math_number" id="]lyOGP|*lhYR/5h~/a]Q"><field name="NUM">0</field></shadow></value><value name="delay"><shadow type="math_number" id="J9-BAqsq?BKt3)+FG^j("><field name="NUM">150</field></shadow></value><next><block type="device_scroll_image" id="kXv`d^`Jb^Xf7(_[-l8="><value name="sprite"><block type="device_build_big_image" id="o]}nUuOlKF#TMYk(:cU2"><field name="LEDS">`
+        # # . . # . # . . # 
+        # . # . # . # . # . 
+        # # . . # # . . # . 
+        # . . . # . # . # . 
+        # . . . # . # . . #
+        `</field></block></value><value name="frameoffset"><shadow type="math_number" id="B@={Dq!P$C9$.b)09DHj"><field name="NUM">0</field></shadow></value><value name="delay"><shadow type="math_number" id="jOfC+bK5i|zp;_sT7V8p"><field name="NUM">150</field></shadow></value><next><block type="device_scroll_image" id="l6t(a/r]U-=(eqvjC@}y"><value name="sprite"><block type="device_build_big_image" id=":C`5oInM|[?dc$n+0[S/"><field name="LEDS">`
+        . . . . . # # . # # 
+        # . . . . # # . # # 
+        # . . . . . . # . . 
+        # . . . . # . . . # 
+        . . . . . . # # # .
+        `</field></block></value><value name="frameoffset"><shadow type="math_number" id="kP89)vx/X4#bK~yN^`7w"><field name="NUM">0</field></shadow></value><value name="delay"><shadow type="math_number" id="=$?SXI=y+B4,E(cl^^/["><field name="NUM">150</field></shadow></value></block></next></block></next></block></statement><next><block type="device_pause" id="+I{^f+x`8fsExICijyOi"><value name="pause"><shadow type="timePicker" id="]GYI6zc[Vth,E#+SIxo2"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="=wX{BBwAGy[o:yXny:?5"/></next></block></next></block></next></block></statement></block></xml>
